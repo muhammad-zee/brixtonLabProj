@@ -1,0 +1,1147 @@
+<div class="card">
+    <div class="card-body">
+        <p-tabView>
+            <p-tabPanel header="Requisitions">
+
+                <div class="card mb-5 mb-xl-8">
+                    <!--begin::Header-->
+                    <div class="card-header border-0 pt-5">
+                        <h3 class="card-title align-items-start flex-column">
+
+                            <span class="card-label  fs-3 mb-1">
+                                Requisitions Table
+                            </span>
+                            <!-- @*<span class="text-muted mt-1 fw-bold fs-7">Over 500 new products</span>*@ -->
+                        </h3>
+                        <div class="card-toolbar">
+                            <a class="btn btn-sm btn-light-primary me-1">
+                                <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                <span class="svg-icon svg-icon-primary ">
+                                    <!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/General/Search.svg--><svg
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="24" height="24" />
+                                            <path
+                                                d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z"
+                                                fill="#000000" fill-rule="nonzero" opacity="0.3" />
+                                            <path
+                                                d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z"
+                                                fill="#000000" fill-rule="nonzero" />
+                                        </g>
+                                    </svg>
+                                    <!--end::Svg Icon-->
+                                </span>
+                                <!--end::Svg Icon-->Search
+                            </a>
+                            <a class="btn btn-sm btn-light-primary me-1">Export</a>
+                            <a class="btn btn-sm btn-light-primary me-1">Reset</a>
+                        </div>
+                    </div>
+                    <!--end::Header-->
+                    <!--begin::Body-->
+                    <div class="card-body py-3">
+                        <!--begin::Table container-->
+                        <div class="table-responsive">
+                            <!--begin::Table-->
+                            <table class="table align-middle gs-0 gy-4">
+                                <!--begin::Table head-->
+                                <thead>
+                                    <tr class=" text-muted bg-light">
+                                        <th class="ps-4 rounded-start"></th>
+                                        <th class="" style="width: 80px;"><select class="form-control form-control-sm ">
+                                                <option value="value">select</option>
+                                            </select></th>
+                                        <th class="" style="width: 80px;"><select class="form-control form-control-sm ">
+                                                <option value="value">All</option>
+                                            </select></th>
+                                        <th class=""><input type="text" name="name"
+                                                class="form-control form-control-sm" /></th>
+                                        <th class=""><input type="text" name="name"
+                                                class="form-control form-control-sm" /></th>
+                                        <th class=""><input type="text" name="name"
+                                                class="form-control form-control-sm" /></th>
+                                        <th class=""><select class="form-control form-control-sm ">
+                                                <option value="value">Select</option>
+                                            </select></th>
+
+
+                                        <th class=""></th>
+                                        <th class=""></th>
+                                        <th class=""></th>
+                                        <th class="" style="width: 80px;"><select class="form-control form-control-sm ">
+                                                <option value="value">Select</option>
+                                            </select></th>
+                                        <th class=""><input type="text" name="name"
+                                                class="form-control form-control-sm" /></th>
+                                        <th class=""><input type="text" name="name"
+                                                class="form-control form-control-sm" /></th>
+
+                                    </tr>
+                                    <tr class=" text-muted bg-light">
+                                        <th class="ps-4 rounded-start">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input" type="checkbox" value="1"
+                                                    data-kt-check="true" data-kt-check-target=".widget-9-check">
+                                            </div>
+                                        </th>
+                                        <th class="">Notes</th>
+                                        <th class="">Flag</th>
+                                        <th class="">Order #</th>
+                                        <th class="">Accession #</th>
+                                        <th class="">Referance ID</th>
+                                        <th class="">Status</th>
+                                        <th class="">Action</th>
+                                        <th class="">Advanced Actions</th>
+                                        <th class="">Print Label</th>
+                                        <th class="">SMS Status</th>
+                                        <th class="">First Name</th>
+                                        <th class="rounded-end">Last Name</th>
+                                    </tr>
+                                </thead>
+                                <!--end::Table head-->
+                                <!--begin::Table body-->
+                                <tbody>
+
+
+                                    <tr>
+                                        <td class="text-end">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input widget-9-check" type="checkbox"
+                                                    value="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a
+                                                class="btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary ">
+                                                <span class="svg-icon svg-icon-primary svg-icon-2x">
+                                                    <!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo2/dist/../src/media/svg/icons/General/Clipboard.svg--><svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                        height="24px" viewBox="0 0 24 24" version="1.1">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <rect x="0" y="0" width="24" height="24" />
+                                                            <path
+                                                                d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z"
+                                                                fill="#000000" opacity="0.3" />
+                                                            <path
+                                                                d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z"
+                                                                fill="#000000" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="10" width="5"
+                                                                height="2" rx="1" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="14" width="9"
+                                                                height="2" rx="1" />
+                                                        </g>
+                                                    </svg>
+                                                    <!--end::Svg Icon-->
+                                                </span>
+                                            </a>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">ASD-1234333</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">D2131222</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6"></a>
+                                        </td>
+                                        <td>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-warning">
+                                                Specimen Collected
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-sm btn-light-success me-1 text-nowrap">Check In</a>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Advanced Actions <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Duplicate</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Shipment Tracking</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Enter Internal Note</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">File Upload</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Print Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req History</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Resend SMS</a>
+                                                </div>
+                                            </div>
+
+                                            <button mat-icon-button
+                                                class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                [matMenuTriggerFor]="menu">
+                                                Advanced Actions <mat-icon>arrow_drop_down</mat-icon>
+                                            </button>
+                                            <mat-menu #menu="matMenu">
+                                                <button mat-menu-item><span>Create Issue</span></button>
+                                                <button mat-menu-item><span>Duplicate</span></button>
+                                                <button mat-menu-item><span>Create Issue</span></button>
+                                                <button mat-menu-item><span>Edit Req</span></button>
+                                                <button mat-menu-item><span>Edit Shipment Tracking</span></button>
+                                                <button mat-menu-item><span>Enter Internal Note</span></button>
+                                                <button mat-menu-item><span>File Upload</span></button>
+                                                <button mat-menu-item><span>Print Req</span></button>
+                                                <button mat-menu-item><span>View Req</span></button>
+                                                <button mat-menu-item><span>View Req History</span></button>
+                                                <button mat-menu-item><span>Resend SMS</span></button>
+                                            </mat-menu>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Print Label
+                                                <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-150px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3  bg-hover-light-info bg-info">
+                                                    <a href="#" class="menu-link px-3  text-white text-hover-info">Dymo
+                                                        Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-success bg-success">
+                                                    <a href="#"
+                                                        class="menu-link px-3 text-white text-hover-success">Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-primary bg-primary">
+                                                    <a href="#"
+                                                        class="menu-link px-3  text-white text-hover-primary">Zebra
+                                                        Print</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Monica </a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Hustle</a>
+                                        </td>
+
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td class="text-end">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input widget-9-check" type="checkbox"
+                                                    value="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a
+                                                class="btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary ">
+                                                <span class="svg-icon svg-icon-primary svg-icon-2x">
+                                                    <!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo2/dist/../src/media/svg/icons/General/Clipboard.svg--><svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                        height="24px" viewBox="0 0 24 24" version="1.1">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <rect x="0" y="0" width="24" height="24" />
+                                                            <path
+                                                                d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z"
+                                                                fill="#000000" opacity="0.3" />
+                                                            <path
+                                                                d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z"
+                                                                fill="#000000" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="10" width="5"
+                                                                height="2" rx="1" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="14" width="9"
+                                                                height="2" rx="1" />
+                                                        </g>
+                                                    </svg>
+                                                    <!--end::Svg Icon-->
+                                                </span>
+                                            </a>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">ASD-1234349</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">D2131122</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6"></a>
+                                        </td>
+                                        <td>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-info">
+                                                Processing
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-sm btn-light-primary me-1 text-nowrap">Upload Result</a>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Advanced Actions <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Duplicate</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Shipment Tracking</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Enter Internal Note</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">File Upload</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Print Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req History</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Resend SMS</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Print Label
+                                                <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-150px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3  bg-hover-light-info bg-info">
+                                                    <a href="#" class="menu-link px-3  text-white text-hover-info">Dymo
+                                                        Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-success bg-success">
+                                                    <a href="#"
+                                                        class="menu-link px-3 text-white text-hover-success">Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-primary bg-primary">
+                                                    <a href="#"
+                                                        class="menu-link px-3  text-white text-hover-primary">Zebra
+                                                        Print</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-success">
+                                                Sent
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Janet</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Loreto</a>
+                                        </td>
+
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td class="text-end">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input widget-9-check" type="checkbox"
+                                                    value="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a
+                                                class="btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary ">
+                                                <span class="svg-icon svg-icon-primary svg-icon-2x">
+                                                    <!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo2/dist/../src/media/svg/icons/General/Clipboard.svg--><svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                        height="24px" viewBox="0 0 24 24" version="1.1">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <rect x="0" y="0" width="24" height="24" />
+                                                            <path
+                                                                d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z"
+                                                                fill="#000000" opacity="0.3" />
+                                                            <path
+                                                                d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z"
+                                                                fill="#000000" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="10" width="5"
+                                                                height="2" rx="1" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="14" width="9"
+                                                                height="2" rx="1" />
+                                                        </g>
+                                                    </svg>
+                                                    <!--end::Svg Icon-->
+                                                </span>
+                                            </a>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">ASB-1234348</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">D2132332</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6"></a>
+                                        </td>
+                                        <td>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-danger">
+                                                Missing Info
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-sm btn-light-success me-1 text-nowrap">Continue</a>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Advanced Actions <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Duplicate</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Shipment Tracking</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Enter Internal Note</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">File Upload</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Print Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req History</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Resend SMS</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Print Label
+                                                <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-150px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3  bg-hover-light-info bg-info">
+                                                    <a href="#" class="menu-link px-3  text-white text-hover-info">Dymo
+                                                        Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-success bg-success">
+                                                    <a href="#"
+                                                        class="menu-link px-3 text-white text-hover-success">Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-primary bg-primary">
+                                                    <a href="#"
+                                                        class="menu-link px-3  text-white text-hover-primary">Zebra
+                                                        Print</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Karl </a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Bremer</a>
+                                        </td>
+
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td class="text-end">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input widget-9-check" type="checkbox"
+                                                    value="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a
+                                                class="btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary ">
+                                                <span class="svg-icon svg-icon-primary svg-icon-2x">
+                                                    <!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo2/dist/../src/media/svg/icons/General/Clipboard.svg--><svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                        height="24px" viewBox="0 0 24 24" version="1.1">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <rect x="0" y="0" width="24" height="24" />
+                                                            <path
+                                                                d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z"
+                                                                fill="#000000" opacity="0.3" />
+                                                            <path
+                                                                d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z"
+                                                                fill="#000000" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="10" width="5"
+                                                                height="2" rx="1" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="14" width="9"
+                                                                height="2" rx="1" />
+                                                        </g>
+                                                    </svg>
+                                                    <!--end::Svg Icon-->
+                                                </span>
+                                            </a>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">ASD-1234347</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">B2130008</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6"></a>
+                                        </td>
+                                        <td>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-dark">
+                                                Validated
+                                            </span>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Advanced Actions <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Duplicate</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Shipment Tracking</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Enter Internal Note</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">File Upload</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Print Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req History</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Resend SMS</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Print Label
+                                                <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-150px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3  bg-hover-light-info bg-info">
+                                                    <a href="#" class="menu-link px-3  text-white text-hover-info">Dymo
+                                                        Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-success bg-success">
+                                                    <a href="#"
+                                                        class="menu-link px-3 text-white text-hover-success">Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-primary bg-primary">
+                                                    <a href="#"
+                                                        class="menu-link px-3  text-white text-hover-primary">Zebra
+                                                        Print</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Ruth</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Richard</a>
+                                        </td>
+
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td class="text-end">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input widget-9-check" type="checkbox"
+                                                    value="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a
+                                                class="btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary ">
+                                                <span class="svg-icon svg-icon-primary svg-icon-2x">
+                                                    <!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo2/dist/../src/media/svg/icons/General/Clipboard.svg--><svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                        height="24px" viewBox="0 0 24 24" version="1.1">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <rect x="0" y="0" width="24" height="24" />
+                                                            <path
+                                                                d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z"
+                                                                fill="#000000" opacity="0.3" />
+                                                            <path
+                                                                d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z"
+                                                                fill="#000000" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="10" width="5"
+                                                                height="2" rx="1" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="14" width="9"
+                                                                height="2" rx="1" />
+                                                        </g>
+                                                    </svg>
+                                                    <!--end::Svg Icon-->
+                                                </span>
+                                            </a>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">ASD-1234346</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">D2140642</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">32334</a>
+                                        </td>
+                                        <td>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-info">
+                                                Processing
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-sm btn-light-primary me-1 text-nowrap">Upload Result</a>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Advanced Actions <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Duplicate</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Shipment Tracking</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Enter Internal Note</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">File Upload</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Print Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req History</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Resend SMS</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Print Label
+                                                <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-150px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3  bg-hover-light-info bg-info">
+                                                    <a href="#" class="menu-link px-3  text-white text-hover-info">Dymo
+                                                        Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-success bg-success">
+                                                    <a href="#"
+                                                        class="menu-link px-3 text-white text-hover-success">Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-primary bg-primary">
+                                                    <a href="#"
+                                                        class="menu-link px-3  text-white text-hover-primary">Zebra
+                                                        Print</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Eva</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Roilet</a>
+                                        </td>
+
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td class="text-end">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input widget-9-check" type="checkbox"
+                                                    value="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a
+                                                class="btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary ">
+                                                <span class="svg-icon svg-icon-primary svg-icon-2x">
+                                                    <!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo2/dist/../src/media/svg/icons/General/Clipboard.svg--><svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                        height="24px" viewBox="0 0 24 24" version="1.1">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <rect x="0" y="0" width="24" height="24" />
+                                                            <path
+                                                                d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z"
+                                                                fill="#000000" opacity="0.3" />
+                                                            <path
+                                                                d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z"
+                                                                fill="#000000" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="10" width="5"
+                                                                height="2" rx="1" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="14" width="9"
+                                                                height="2" rx="1" />
+                                                        </g>
+                                                    </svg>
+                                                    <!--end::Svg Icon-->
+                                                </span>
+                                            </a>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">ASD-1234345</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">D2123452</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6"></a>
+                                        </td>
+                                        <td>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-primary">
+                                                Pending Specimen Collection
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-sm btn-light-warning me-1 text-nowrap">Collect
+                                                Specimen</a>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Advanced Actions <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Duplicate</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Shipment Tracking</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Enter Internal Note</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">File Upload</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Print Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req History</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Resend SMS</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Print Label
+                                                <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-150px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3  bg-hover-light-info bg-info">
+                                                    <a href="#" class="menu-link px-3  text-white text-hover-info">Dymo
+                                                        Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-success bg-success">
+                                                    <a href="#"
+                                                        class="menu-link px-3 text-white text-hover-success">Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-primary bg-primary">
+                                                    <a href="#"
+                                                        class="menu-link px-3  text-white text-hover-primary">Zebra
+                                                        Print</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Miles</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Prince</a>
+                                        </td>
+
+                                    </tr>
+
+
+
+
+                                    <tr>
+                                        <td class="text-end">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input widget-9-check" type="checkbox"
+                                                    value="1">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a
+                                                class="btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary ">
+                                                <span class="svg-icon svg-icon-primary svg-icon-2x">
+                                                    <!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo2/dist/../src/media/svg/icons/General/Clipboard.svg--><svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                        height="24px" viewBox="0 0 24 24" version="1.1">
+                                                        <g stroke="none" stroke-width="1" fill="none"
+                                                            fill-rule="evenodd">
+                                                            <rect x="0" y="0" width="24" height="24" />
+                                                            <path
+                                                                d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z"
+                                                                fill="#000000" opacity="0.3" />
+                                                            <path
+                                                                d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z"
+                                                                fill="#000000" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="10" width="5"
+                                                                height="2" rx="1" />
+                                                            <rect fill="#000000" opacity="0.3" x="7" y="14" width="9"
+                                                                height="2" rx="1" />
+                                                        </g>
+                                                    </svg>
+                                                    <!--end::Svg Icon-->
+                                                </span>
+                                            </a>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">ASD-1234344</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">B2765432</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">IDX436556</a>
+                                        </td>
+                                        <td>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-info">
+                                                Processing
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-sm btn-light-primary me-1 text-nowrap">Upload Result</a>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Advanced Actions <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Duplicate</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Create Issue</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit Shipment Tracking</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Enter Internal Note</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">File Upload</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Print Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">View Req History</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Resend SMS</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-light-primary me-1  text-nowrap"
+                                                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                Print Label
+                                                <span class="fa fa-chevron-down"></span>
+                                            </button>
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-150px py-3"
+                                                data-kt-menu="true">
+                                                <div class="menu-item px-3  bg-hover-light-info bg-info">
+                                                    <a href="#" class="menu-link px-3  text-white text-hover-info">Dymo
+                                                        Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-success bg-success">
+                                                    <a href="#"
+                                                        class="menu-link px-3 text-white text-hover-success">Print</a>
+                                                </div>
+                                                <div class="menu-item px-3  bg-hover-light-primary bg-primary">
+                                                    <a href="#"
+                                                        class="menu-link px-3  text-white text-hover-primary">Zebra
+                                                        Print</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-success">
+                                                Sent
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">David</a>
+                                        </td>
+                                        <td>
+                                            <a class="text-dark  text-hover-primary d-block mb-1 fs-6">Walter</a>
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+                                <!--end::Table body-->
+                            </table>
+                            <!--end::Table-->
+                        </div>
+                        <!-- <app-paginator class="d-flex justify-content-between align-items-center flex-wrap" [paginator]="paginator"
+                            [isLoading]="isLoading" (paginate)="paginate($event)"></app-paginator> -->
+                        <!--end::Table container-->
+                    </div>
+                    <!--begin::Body-->
+                </div>
+            </p-tabPanel>
+            <p-tabPanel header="Completed">
+                <p-table [value]="requistionsData" [lazy]="true" (onLazyLoad)="getRequisitions()"
+                    responsiveLayout="scroll" dataKey="RecordId" [selection]="selectedCustomers"
+                    (selectionChange)="onSelectionChange($event)" [selectAll]="selectAll"
+                    (selectAllChange)="onSelectAllChange($event)" [paginator]="true" [rows]="10"
+                    [totalRecords]="totalRecords" [loading]="loading" [rowsPerPageOptions]="[10,25,50]"
+                    [globalFilterFields]="['name','country.name', 'company', 'representative.name']"
+                    >
+                    <ng-template pTemplate="header">
+                        <tr>
+                            <th style="width: 3rem"></th>
+                            <th pSortableColumn="name">Name <p-sortIcon field="name"></p-sortIcon>
+                            </th>
+                            <th pSortableColumn="country.name">Country <p-sortIcon field="country.name"></p-sortIcon>
+                            </th>
+                            <th pSortableColumn="company">Company <p-sortIcon field="company"></p-sortIcon>
+                            </th>
+                            <th pSortableColumn="representative.name">Representative <p-sortIcon
+                                    field="representative.name"></p-sortIcon>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="width: 3rem">
+                                <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+                            </th>
+                            <th>
+                                <p-columnFilter type="text" field="name"></p-columnFilter>
+                            </th>
+                            <th>
+                                <p-columnFilter type="text" field="country.name"></p-columnFilter>
+                            </th>
+                            <th>
+                                <p-columnFilter type="text" field="company"></p-columnFilter>
+                            </th>
+                            <th>
+                                <p-columnFilter field="representative" matchMode="in" [showMenu]="false">
+                                    <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                                        <p-multiSelect [ngModel]="value" appendTo="body" [options]="representatives"
+                                            placeholder="Any" (onChange)="filter($event.value)" optionLabel="name">
+                                            <ng-template let-option pTemplate="item">
+                                                <div class="p-multiselect-representative-option">
+                                                    <!-- src="assets/showcase/images/demo/avatar/{{option.image}}" -->
+                                                    <img [alt]="option.label"
+                                                    src="assets/media/avatars/150-2"
+                                                        width="32" style="vertical-align: middle" />
+                                                    <span class="ml-1">{{option.name}}</span>
+                                                </div>
+                                            </ng-template>
+                                        </p-multiSelect>
+                                    </ng-template>
+                                </p-columnFilter>
+                            </th>
+                        </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body" let-req>
+                        <tr>
+                            <td>
+                                <p-tableCheckbox [value]="req"></p-tableCheckbox>
+                            </td>
+                            <td>{{req.AccessionNo}}</td>
+                            <td>{{req.Address}}</td>
+                            <td>{{req.City}}</td>
+                            <td>{{req.DOB}}</td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+            </p-tabPanel>
+            <p-tabPanel header="Rejected">
+                Content 2
+            </p-tabPanel>
+            <p-tabPanel header="Deleted">
+                Content 3
+            </p-tabPanel>
+            <p-tabPanel header="All Requisitions">
+                Content 3
+            </p-tabPanel>
+            <p-tabPanel header="Manifest Files">
+                Content 3
+            </p-tabPanel>
+        </p-tabView>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+
+export enum Modules {
+    Dashboard = 'Dashboard',
+    CollectionCenter = "Collection Center",
+    ManageRequisitions = 'Manage Requisitions',
+    Requisitions = "Requisitions",
+    Setting = "Setting",
+    LIS = "LIS",
+    Patients = "Patients",
+    InfectiousDeseaseRequisitions = "Infectious Desease Requisitions",
+    BloodRequisitions = "Blood Requisitions",
+    Billing = "Billing",
+    BulkReceiving = "Bulk Receiving",
+    TOXRequisitions = "TOX Requisitions",
+    Support = "Support",
+    UserSettings = "User Settings",
+    NotificationSettings = "Notification Settings",
+    PerformingLabSettings = "Performing Lab Settings",
+    Blood = "Blood",
+    Resulting = "Resulting",
+    Compendium = "Compendium",
+    InfectiousDesease = "Infectious Desease",
+    TOX = "TOX",
+    ManageCollectionCenter = "Manage Collection Center",
+    Users = "Users"
+}

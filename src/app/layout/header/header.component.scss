@@ -1,0 +1,16 @@
+.showHeader{
+    z-index: 105; 
+    position: fixed; 
+    inset: 0px 0px auto auto; 
+    margin: 0px; 
+    transform: translate3d(-30px, 65px, 0px);
+}
+
+
+.showLanguageDropdown{
+    z-index: 106; 
+    position: fixed; 
+    inset: 0px 0px auto auto;
+     margin: 0px; 
+     transform: translate3d(-275px, 147px, 0px);
+}

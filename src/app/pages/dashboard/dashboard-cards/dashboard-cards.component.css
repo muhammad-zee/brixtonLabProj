@@ -1,0 +1,25 @@
+.dashboardReportsCard-header, .dashboardReportsCard-body {
+    margin-left: auto !important;
+    color: white;
+}
+
+.dashboardRepostCardsRow {
+    height: 9rem !important;
+}
+
+.dashboardReportsCard-header p {
+    color: white;
+    font-size: -webkit-xxx-large;
+    font-weight: lighter;
+}
+
+.dashboardReportsCardHeader {
+    width: -webkit-fill-available;
+}
+
+.dashboardReportsCard-header{
+    min-height:70px !important;
+}
+.dashboardRepostCardsImgDiv img{
+    min-width:8rem !important;
+}

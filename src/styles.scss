@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./styles/_variable.scss";
+@import "./styles/style.bundle.css";
+@import 'material-icons/iconfont/material-icons.css';
+
+
+#kt_content_container {
+    margin: 0rem 2rem !important;
+    min-width: inherit;
+}
+
+.RenderBodyContainer {
+    min-width: -webkit-fill-available
+}
+.card .card-header {
+    min-height: 4rem;
+}
+
+
+.aside.aside-dark {
+    background-color: $color-dark !important;
+  }
+
+
+  .toolbar-fixed .toolbar{
+      position: absolute !important;
+  }

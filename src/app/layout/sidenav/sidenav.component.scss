@@ -1,0 +1,289 @@
+.aside {
+  overflow-y: auto;
+}
+
+
+@import "/src/styles/variable";
+
+/*--------------------------------------------------------------------
+                      Sidebar Logo
+---------------------------------------------------------------------*/
+.logo-sn {
+  a {
+    padding: 17px 0px;
+
+    img {
+      width: 90%;
+    }
+  }
+}
+
+/*--------------------------------------------------------------------
+                      Sidebar Menue
+---------------------------------------------------------------------*/
+:host ::ng-deep .p-menuitem.active {
+  color: $color-primary;
+  background-color: $color-primary;
+  text-decoration: none;
+  transition: none;
+  border-left: 3px solid $color-orange;
+  padding-left: 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+:host ::ng-deep li.active>a>span {
+  color: $color-white !important;
+}
+
+:host ::ng-deep .side-icons {
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left:0px !important
+}
+
+:host ::ng-deep .child-icons {
+  height: 21px;
+  width: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+}
+
+/*--------------------------------------------------------------------
+                      Sidebar Menue Icons
+---------------------------------------------------------------------*/
+:host ::ng-deep .dashboard-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/dashboard.svg");
+}
+
+:host ::ng-deep .schedule-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/schedule.svg");
+}
+
+:host ::ng-deep .chat-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/chat.svg");
+}
+
+:host ::ng-deep .consult-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/consult.svg");
+}
+
+:host ::ng-deep .ems-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/ems.svg");
+}
+
+:host ::ng-deep .administration-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/administration.svg");
+}
+
+:host ::ng-deep .Facility_Management-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/facility-management.svg");
+}
+
+:host ::ng-deep .roles-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/roles.svg");
+}
+
+:host ::ng-deep .users-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/org-users.svg");
+}
+
+:host ::ng-deep .roles-access-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/md-roles-access.svg");
+}
+
+:host ::ng-deep .user-access-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/org-user-access.svg");
+}
+
+:host ::ng-deep .import-schedule-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/import-schedule.svg");
+}
+
+:host ::ng-deep .ivr-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/ivr.svg");
+}
+
+:host ::ng-deep .setting-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/org-setting.svg");
+}
+
+:host ::ng-deep .consultsettings-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/org-consult-setting.svg");
+}
+
+:host ::ng-deep .error-console-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/roles.svg");
+}
+
+:host ::ng-deep .organization-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/d-organization.svg");
+}
+
+:host ::ng-deep .department-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/departments.svg");
+}
+
+:host ::ng-deep .activate-code-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/activation-code.svg");
+}
+
+:host ::ng-deep .clinicalhors-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/org-clinical-hours.svg");
+}
+
+:host ::ng-deep .createSchedule-icon,
+:host ::ng-deep .importSchedule-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/schedule.svg");
+}
+
+
+:host ::ng-deep .services-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/org-service-line.svg");
+}
+
+:host ::ng-deep .error-console-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/md-error-console.svg");
+}
+
+:host ::ng-deep .activeCode-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/active-code.svg");
+}
+
+:host ::ng-deep .communication-log-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/communication-log.svg");
+}
+
+:host ::ng-deep .inhouse-codes-settings-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/inhouse-codes-settings-icon.svg");
+}
+
+:host ::ng-deep .activity-log-icon {
+  background-image: url("../../../assets/media/svg/sidebar-iconns/activity-log-icon.svg");
+}
+
+/*--------------------------------------------------------------------
+                      Sidebar position set
+---------------------------------------------------------------------*/
+:host ::ng-deep .p-panelmenu {
+  border: unset;
+  border-radius: 0px;
+  background-color: $color-dark;
+  width: auto !important;
+
+  // position: fixed;
+  .p-panelmenu .p-component {
+    background-color: $color-dark;
+  }
+}
+
+:host ::ng-deep .p-panelmenu .p-menuitem-active>p-panelmenusub>.p-submenu-list {
+  display: block;
+  left: 100%;
+  top: -5rem;
+  border-radius: 5px;
+
+  background-color: $color-dark;
+}
+
+:host ::ng-deep .p-panelmenu .p-menuitem-active>p-panelmenusub>.p-submenu-list .p-submenu-list {
+  left: 100%;
+  top: 0rem;
+  border-radius: 2px;
+
+  background-color: $color-dark;
+}
+
+:host ::ng-deep .p-panelmenu .p-menuitem-link {
+  // display: grid;
+  text-align: center;
+  padding-left: 0;
+}
+
+:host ::ng-deep .p-panelmenu .p-menuitem-link .p-menuitem-icon {
+  margin-bottom: 8px;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-header > a .p-menuitem-icon {
+  margin-left: auto;
+  // position: absolute;
+  right: 0;
+  bottom: 8px;
+  opacity: 0.7;
+}
+:host ::ng-deep .p-panelmenu .p-panelmenu-content {
+  border: 0px !important;
+  background-color: inherit !important;
+  border-radius: 0px !important;
+}
+:host ::ng-deep .p-menuitem-text {
+  color: #9899ac !important;  
+ }
+:host ::ng-deep .pi {
+  font-size: 0.8rem !important;
+}
+:host ::ng-deep  .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link{
+border-radius: 0px !important;
+border: 0px !important;
+color: #9899ac !important;
+background-color: $color-dark;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-header > a {
+  border:0px !important;
+  background-color: $color-dark !important;
+  color: #9899ac !important;
+}
+:host ::ng-deep .p-panelmenu .p-panelmenu-header.p-highlight > a {
+  background: $color-dark !important;
+}
+
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-header > a:focus{
+  box-shadow: unset !important;
+  background-color: #1b1b28 !important;
+  color: $color-white !important;
+}
+
+:host ::ng-deep  .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:focus{
+  box-shadow: unset !important;
+}
+/*--------------------------------------------------------------------
+                 Media queries for sidebar
+---------------------------------------------------------------------*/
+@media only screen and (max-width: 1615px) {
+  :host ::ng-deep .p-panelmenu .p-menuitem-active>p-panelmenusub>.p-submenu-list {
+    display: block;
+    left: 100%;
+    top: -22rem;
+  }
+}
+
+
+.aside .aside-menu {
+  width: auto;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-header > a .p-panelmenu-icon{
+  position: absolute;
+  right:0px !important
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover,.p-panelmenu-header-link:hover{
+background-color: #1b1b28 !important;
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-header > a .p-panelmenu-icon{
+ opacity: 0px !important;
+}
+}
+
+
+:host ::ng-deep .side-icons{
+margin-bottom: 0px !important;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-content{
+  padding-left: 10px !important;
+}

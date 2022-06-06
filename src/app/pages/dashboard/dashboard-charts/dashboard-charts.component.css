@@ -1,0 +1,11 @@
+.bg-dangerType {
+    background:#ef5a5c;
+}
+.bg-dangerDarkType {
+    background: #d04e50;
+}
+
+
+:host ::ng-deep  .highcharts-credits{
+    display:none !important;
+}
